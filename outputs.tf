@@ -13,3 +13,7 @@ output "public_subnet_list" {
 output "database_subnet_group_id" {
     value = module.vpc_test.database_subnet_group_id
 }
+
+output "igw_id" {
+    value = module.vpc_test.igw_id
+}
